@@ -23,7 +23,7 @@
 
     <Button
         android:id="@+id/btnUpdate"
-        android:text="Tambahkan Barang"
+        android:text="Ubah Data Barang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
