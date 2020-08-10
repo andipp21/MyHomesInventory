@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddInventoryActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/inventoryNameAdd"
+        android:hint="Nama Barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/inventoryTotalAdd"
+        android:hint="Jumlah Barang"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Tambahkan Barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
